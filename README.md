@@ -13,6 +13,9 @@
   <a href="https://twitter.com/ngocsangyem" target="_blank">
     <img alt="Twitter: ngocsangyem" src="https://img.shields.io/twitter/follow/ngocsangyem.svg?style=social" />
   </a>
+  <a href="https://github.com/ngocsangyem/vue-ts/actions/workflows/ci.yml/badge.svg" target="_blank">
+    <img alt="CI: ngocsangyem" src="https://github.com/ngocsangyem/vue-ts/actions/workflows/ci.yml/badge.svg" />
+  </a>
 </p>
 
 > The project focuses on creating a web application (inspired by the real Aspire application)
