@@ -22,7 +22,7 @@
 
 ### 🏠 [Homepage](https://github.com/ngocsangyem/aspire-challenge#readme)
 
-### ✨ [Demo](https://www.ngocsangyem.dev/)
+### ✨ [Demo](https://aspire-challenge.vercel.app/)
 
 ## Recommended IDE Setup
 
