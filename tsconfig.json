@@ -22,7 +22,8 @@
 			"@/stores/*": ["./src/stores/*"],
 			"@/helpers/*": ["./src/helpers/*"],
 			"@/common/*": ["./src/common/*"],
-			"@/styles/*": ["./src/styles/*"]
+			"@/styles/*": ["./src/styles/*"],
+			"@/__mock__/*": ["./src/__mock__/*"],
 		}
 	},
 	"include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],

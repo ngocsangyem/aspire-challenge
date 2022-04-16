@@ -24,6 +24,7 @@ export default defineConfig({
 			'@/stores': resolve(__dirname, './src/stores'),
 			'@/helpers': resolve(__dirname, './src/helpers'),
 			'@/common': resolve(__dirname, './src/common'),
+			'@/__mocks__': resolve(__dirname, './src/__mocks__'),
 		},
 	},
 	css: {
