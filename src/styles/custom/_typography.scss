@@ -1,0 +1,33 @@
+:root {
+	// font family
+	--font-primary: 'Open Sans', sans-serif;
+
+	// font size
+	--text-base-size: 14px; // body font-size
+	--text-scale-ratio: 1.2; // multiplier used to generate the type scale values 👇
+
+	// line-height
+	--body-line-height: 1.4;
+	--heading-line-height: 1.2;
+
+	// capital letters - used in combo with the lhCrop mixin
+	--font-primary-capital-letter: 1;
+
+	// unit - don't modify unless you want to change the typography unit (e.g., from Rem to Em units)
+	--text-unit: var(--text-base-size); // if Em units → --text-unit: 1em;
+}
+
+:root,
+* {
+	--text-xs-size: 12px;
+	--text-sm-size: 13px;
+	--text-md-size: 14px;
+	--text-lg-size: 15px;
+	--text-xl-size: 16px;
+	--text-xxl-size: 24px;
+	--text-xxxl-size: 26px;
+}
+
+body {
+	--body-font-weight: 400;
+}
