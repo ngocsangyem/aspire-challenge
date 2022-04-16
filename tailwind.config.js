@@ -3,11 +3,11 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				primary: 'var(--color-primary)',
-				secondary: 'var(--color-secondary)',
-				black: 'var(--color-black)',
+				'primary-c': 'var(--color-primary)',
+				'secondary-c': 'var(--color-secondary)',
+				'black-c': 'var(--color-black)',
 				white: 'var(--color-white)',
-				blue: 'var(--color-blue)',
+				'blue-c': 'var(--color-blue)',
 				'blue-light': 'var(--color-blue-light)',
 				'blue-lighter': 'var(--color-blue-lighter)',
 				'blue-dark': 'var(--color-blue-dark)',
@@ -32,8 +32,12 @@ module.exports = {
 				'3xl': ['var(--text-3xl-size, 1.875rem)', '16px'],
 			},
 			boxShadow: {
-				'menu': '0px 0px 8px rgba(0, 0, 0, 0.04)',
+				'menu': '0px 0px 8px rgba(0, 0, 0, 0.2)',
+				'box': '0px 2px 12px rgba(0, 0, 0, 0.12)',
 			},
+			spacing: {
+				'60px': '60px',
+			}
 		},
 		screens: {
 			xs: '32rem',
@@ -44,6 +48,8 @@ module.exports = {
 
 			md: '64rem',
 			// => @media (min-width: 1024px) { ... }
+
+			'md-max': { max: '63.875rem' },
 
 			lg: '80rem',
 			// => @media (min-width: 1280px) { ... }
