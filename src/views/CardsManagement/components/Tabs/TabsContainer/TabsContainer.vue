@@ -22,7 +22,7 @@
 				<debit-cards-tab></debit-cards-tab>
 			</q-tab-panel>
 			<q-tab-panel name="CompanyCards" :disable="true">
-				<company-cards-tab></company-cards-tab>
+				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius impedit alias dolorem labore quo ex magni in tempore vel blanditiis accusantium eligendi modi fugiat, nesciunt neque unde illo perspiciatis veniam aspernatur minus molestias reiciendis et. Quidem, et illum ipsa hic officiis fuga nihil iusto id deleniti autem quod commodi eos ratione nam nisi optio itaque! Laudantium explicabo cupiditate mollitia accusantium tempore veniam laborum nisi sit praesentium, provident fugit quia rerum quod non assumenda eos illo unde vitae obcaecati quis similique cumque architecto. Repudiandae consectetur aspernatur aliquam ullam in sint dolorum, ex ipsum molestias iusto aut qui id sed quod veritatis.</p>
 			</q-tab-panel>
 		</q-tab-panels>
 	</div>
@@ -30,7 +30,6 @@
 
 <script setup lang="ts">
 import { ref } from 'vue';
-import DebitCardsTab from '../DebitCardsTab/DebitCardsTab.vue';
 import CompanyCardsTab from '../CompanyCardsTab/CompanyCardsTab.vue';
 
 const tab = ref('DebitCardsTab');
