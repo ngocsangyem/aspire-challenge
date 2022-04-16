@@ -18,6 +18,7 @@ export default defineConfig({
 			'@/': resolve(__dirname, './src'),
 			'@/components': resolve(__dirname, './src/components'),
 			'@/@types': resolve(__dirname, './src/@types'),
+			'@/styles': resolve(__dirname, './src/styles'),
 			'@/views': resolve(__dirname, './src/views'),
 			'@/assets': resolve(__dirname, './src/assets'),
 			'@/stores': resolve(__dirname, './src/stores'),

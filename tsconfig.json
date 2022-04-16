@@ -21,7 +21,8 @@
 			"@/assets/*": ["./src/assets/*"],
 			"@/stores/*": ["./src/stores/*"],
 			"@/helpers/*": ["./src/helpers/*"],
-			"@/common/*": ["./src/common/*"]
+			"@/common/*": ["./src/common/*"],
+			"@/styles/*": ["./src/styles/*"]
 		}
 	},
 	"include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
