@@ -65,14 +65,14 @@ const menu = [
 ];
 const isActive = (active: boolean) => {
 	return active
-		? 'text-primary'
-		: 'text-gray-acadia md:text-white hover:md:text-primary md:transition';
+		? 'text-primary-c'
+		: 'text-gray-acadia md:text-white hover:md:text-primary-c md:transition';
 };
 </script>
 
 <style lang="scss" scoped>
 .is-active {
-	@apply text-primary;
+	@apply text-primary-c;
 }
 
 li {

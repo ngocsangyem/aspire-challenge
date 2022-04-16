@@ -16,11 +16,12 @@
 <style lang="scss" scoped>
 .add-icon {
 	.a {
-		fill: #fff;
 		stroke: #325baf;
 		stroke-linecap: round;
 		stroke-linejoin: round;
 		stroke-width: 0.5px;
+		@apply stroke-blue-c;
+		@apply md:stroke-blue-dark;
 	}
 }
 </style>

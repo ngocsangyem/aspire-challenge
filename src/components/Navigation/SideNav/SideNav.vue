@@ -1,8 +1,8 @@
 <template>
 	<aside
-		class="side-nav md:bg-secondary w-full md:w-340 md:p-12 fixed md:top-0 left-0 bottom-0 md:h-full"
+		class="side-nav md:bg-secondary-c w-full md:w-340 md:p-12 md-max:fixed md:min-h-screen md-max:left-0 md-max:bottom-0"
 	>
-		<header class="mb-20 hidden md:block">
+		<header class="mb-20 md-max:hidden md:block">
 			<a
 				href="https://aspireapp.com/"
 				class="aspire-logo"
