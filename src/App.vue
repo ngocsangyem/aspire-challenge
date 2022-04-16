@@ -3,9 +3,8 @@ import SideNav from '@/components/Navigation/SideNav/SideNav.vue';
 </script>
 
 <template>
-	<div>
-		<side-nav></side-nav>
-	</div>
+	<side-nav></side-nav>
+	<router-view></router-view>
 </template>
 
 <style lang="scss">
