@@ -3,7 +3,7 @@
 	--font-primary: 'Open Sans', sans-serif;
 
 	// font size
-	--text-base-size: 14px; // body font-size
+	--text-base-size: 16px; // body font-size
 	--text-scale-ratio: 1.2; // multiplier used to generate the type scale values 👇
 
 	// line-height
@@ -19,6 +19,7 @@
 
 :root,
 * {
+	--text-tiny-size: 9px;
 	--text-xs-size: 12px;
 	--text-sm-size: 13px;
 	--text-md-size: 14px;

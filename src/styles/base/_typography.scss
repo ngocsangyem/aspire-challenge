@@ -1,64 +1,23 @@
 body {
-	font-size: var(--text-base-size, 1rem);
 	font-family: var(--font-primary, sans-serif);
 	font-weight: var(--body-font-weight, normal);
-	color: var(--color-black, #333);
+	@apply text-black;
+	@apply text-base;
 }
 
 h1,
 h2,
 h3,
 h4 {
-	color: var(--color-black, hsl(204, 28%, 7%));
+	@apply text-black;
 	line-height: var(--heading-line-height, 1.2);
 	font-weight: var(--heading-font-weight, 700);
-}
-
-h1 {
-	font-size: var(--text-xxl, 2rem);
-}
-
-h2 {
-	font-size: var(--text-xl, 1.75rem);
-}
-
-h3 {
-	font-size: var(--text-lg, 1.375rem);
-}
-
-h4 {
-	font-size: var(--text-md, 1.125rem);
 }
 
 small {
 	font-size: var(--text-sm, 0.75rem);
 }
 
-.text-base {
-	font-size: var(--text-base-size, 1rem);
-}
-
-.text-xs {
-	font-size: var(--text-xs-size, 0.75rem);
-}
-.text-sm {
-	font-size: var(--text-sm-size, 0.875rem);
-}
-.text-md {
-	font-size: var(--text-md-size, 1rem);
-}
-.text-lg {
-	font-size: var(--text-lg-size, 1.125rem);
-}
-.text-xl {
-	font-size: var(--text-xl-size, 1.25rem);
-}
-.text-xxl {
-	font-size: var(--text-xxl-size, 1.5rem);
-}
-.text-xxxl {
-	font-size: var(--text-xxxl-size, 1.75rem);
-}
 a,
 .link {
 	color: var(--color-primary, hsl(250, 84%, 54%));
