@@ -22,6 +22,7 @@ import RemovedEyeIcon from './RemovedEyeIcon.vue';
 import ReplaceCardIcon from './ReplaceCardIcon.vue';
 import TransactionIcon from './TransactionIcon.vue';
 import VisaLogo from './VisaLogo.vue';
+import CardDetailIcon from './CardDetailIcon.vue';
 
 export {
 	AspireIcon,
@@ -48,4 +49,5 @@ export {
 	ReplaceCardIcon,
 	TransactionIcon,
 	VisaLogo,
+	CardDetailIcon,
 };

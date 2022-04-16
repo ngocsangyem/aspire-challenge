@@ -34,6 +34,7 @@ module.exports = {
 			boxShadow: {
 				'menu': '0px 0px 8px rgba(0, 0, 0, 0.2)',
 				'box': '0px 2px 12px rgba(0, 0, 0, 0.12)',
+				'expansion': '0px 0px 8px rgba(0, 0, 0, 0.04)',
 			},
 			spacing: {
 				'60px': '60px',

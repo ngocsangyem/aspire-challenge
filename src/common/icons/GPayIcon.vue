@@ -6,9 +6,6 @@
 		viewBox="0 0 32 32"
 		class="gpay-icon"
 	>
-		<defs>
-			<style></style>
-		</defs>
 		<g transform="translate(213 -305)">
 			<g class="a" transform="translate(-213 305)">
 				<circle class="f" cx="16" cy="16" r="16" />

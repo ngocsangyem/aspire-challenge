@@ -6,11 +6,6 @@
 		viewBox="0 0 20.537 20.537"
 		class="remove-eye-icon"
 	>
-		<defs>
-			<style>
-				.a {
-			</style>
-		</defs>
 		<path class="a" d="M0,0H20.537V20.537H0Z" />
 		<path
 			class="b"
