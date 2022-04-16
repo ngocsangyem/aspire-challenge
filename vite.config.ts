@@ -26,4 +26,11 @@ export default defineConfig({
 			'@/common': resolve(__dirname, './src/common'),
 		},
 	},
+	css: {
+		preprocessorOptions: {
+			scss: {
+				additionalData: `@use './src/styles/base/breakpoints' as *;` 
+			}
+		}
+	}
 });
