@@ -2,6 +2,9 @@
 	<div class="tab-content">
 		<div class="md:grid md:grid-cols-2 md:gap-x-11">
 			<div class="tab-content-left">
+				<debit-card :card="{
+					card_number: '2700457222980717',
+				}"></debit-card>
 				<card-actions class="mt-8 md-max:hidden"></card-actions>
 			</div>
 			<div class="tab-content-right">
@@ -15,4 +18,5 @@
 <script setup lang="ts">
 import CardActions from '@/components/Card/CardActions/CardActions.vue';
 import ExpansionItems from '../../../components/ExpansionItems/ExpansionItems.vue';
+import DebitCard from '@/components/Card/DebitCard/DebitCard.vue';
 </script>

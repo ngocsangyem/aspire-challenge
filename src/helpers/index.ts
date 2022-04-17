@@ -1,3 +1,4 @@
 import { mapCards } from './mapCards/mapCards';
+import { splitChunks } from './splitChunks/splitChunks';
 
-export { mapCards };
+export { mapCards, splitChunks };

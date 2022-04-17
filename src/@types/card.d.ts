@@ -3,7 +3,7 @@ export type CardType = {
 	name: string;
 	card_number: string;
 	expiration_date: string;
-	ccv_number: string;
+	cvv_number: string;
 	id: string;
 	freeze: boolean;
 };
