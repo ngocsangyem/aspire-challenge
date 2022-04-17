@@ -1,6 +1,6 @@
 <template>
 	<aside
-		class="side-nav md:bg-secondary-c w-full md:w-60 lg:w-340 md:p-8 lg:p-12 md-max:fixed md:min-h-screen md-max:left-0 md-max:bottom-0 md:shrink-0"
+		class="side-nav md:bg-secondary-c w-full md:w-60 lg:w-340 md:p-8 lg:p-12 md-max:fixed md:min-h-screen md-max:left-0 md-max:bottom-0 md:shrink-0 z-50 md-max:bg-white"
 	>
 		<header class="mb-20 md-max:hidden md:block">
 			<a

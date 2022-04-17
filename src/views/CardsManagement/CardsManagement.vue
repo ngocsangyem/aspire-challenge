@@ -1,5 +1,5 @@
 <template>
-	<div class="grow md:mt-14 md:px-5 xl:px-60px">
+	<div class="grow md:mt-14 md:px-5 xl:px-60px md-max:mb-20">
 		<cards-management-header></cards-management-header>
 		<tabs-container></tabs-container>
 	</div>

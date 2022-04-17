@@ -4,12 +4,12 @@
 			<li v-for="menuItem in menu" :key="menuItem.name">
 				<a
 					:href="menuItem.path"
-					:class="`text-tiny py-3 md:py-0 md:text-xl flex flex-col md:flex-row items-center active:text-primary ${isActive(
+					:class="`text-tiny py-2 md:py-0 md:text-xl flex flex-col md:flex-row items-center active:text-primary ${isActive(
 						menuItem.isActive
 					)}`"
 					:title="menuItem.name"
 				>
-					<span class="inline-block mb-1 md:mb-0">
+					<span>
 						<component :is="menuItem.icon"></component>
 					</span>
 					<span class="md:ml-4 inline-block">{{ menuItem.name }}</span>
