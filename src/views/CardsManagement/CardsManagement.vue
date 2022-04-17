@@ -1,5 +1,5 @@
 <template>
-	<div class="grow md:mt-14 md:px-5 xl:px-60px md-max:mb-20">
+	<div class="card-management-container grow md:mt-14 md:px-5 xl:px-60px md-max:bg-secondary-c">
 		<cards-management-header></cards-management-header>
 		<tabs-container></tabs-container>
 	</div>
@@ -38,3 +38,10 @@ onMounted(async () => {
 	setCards(mappedCards(cards));
 });
 </script>
+<style lang="scss" scoped>
+.card-management-container {
+	@media (max-width: 63.875rem) {
+		margin-bottom: 54px;
+	}
+}
+</style>

@@ -1,5 +1,5 @@
 <template>
-	<div class="expansion-items">
+	<div class="expansion-items bg-white">
 		<q-expansion-item expand-icon-class="hidden">
 			<template #header>
 				<header

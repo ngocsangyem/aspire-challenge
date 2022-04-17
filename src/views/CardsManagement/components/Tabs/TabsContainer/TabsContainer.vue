@@ -3,7 +3,7 @@
 		<q-tabs
 			v-model="tab"
 			dense
-			class="text-grey"
+			class="text-grey md-max:px-6"
 			active-color="primary"
 			indicator-color="primary"
 			align="justify"
@@ -17,7 +17,7 @@
 			>
 			</q-tab>
 		</q-tabs>
-		<q-tab-panels v-model="tab">
+		<q-tab-panels v-model="tab" class="md-max:bg-secondary-c">
 			<q-tab-panel name="DebitCardsTab">
 				<debit-cards-tab></debit-cards-tab>
 			</q-tab-panel>
@@ -47,11 +47,13 @@ const tab = ref('DebitCardsTab');
 		@apply mr-8;
 		&__label {
 			@apply normal-case;
+			@apply md-max:text-sm;
 		}
 		&--active {
 			.q-tab__label {
 				@apply font-bold;
 				@apply text-black-c;
+				@apply md-max:text-white;
 			}
 		}
 	}
