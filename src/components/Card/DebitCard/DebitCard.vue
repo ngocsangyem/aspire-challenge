@@ -2,7 +2,7 @@
 	<div
 		class="debit-card-container"
 		:class="{
-			'opacity-5': card.freeze,
+			'blur-sm pointer-events-none': card.freeze,
 		}"
 	>
 		<div class="debit-card-action flex justify-end md:mb-3">
