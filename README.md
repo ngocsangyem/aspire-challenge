@@ -20,6 +20,19 @@
 
 > The project focuses on creating a web application (inspired by the real Aspire application)
 
+## Features
+
+| Features                                      |     |
+| --------------------------------------------- | --- |
+| [Vue3](https://vuejs.org/)                    | ✅   |
+| [Typescript](https://www.typescriptlang.org/) | ✅   |
+| [Pinia](https://pinia.vuejs.org/)             | ✅   |
+| [Vue router](https://router.vuejs.org/)       | ✅   |
+| [Tailwind](https://tailwindcss.com/)          | ✅   |
+| [Vercel](https://vercel.com/)                 | ✅   |
+| [Quasar](https://quasar.dev/)                 | ✅   |
+| [Test](https://quasar.dev/)                   | ❌   |
+
 ### 🏠 [Homepage](https://github.com/ngocsangyem/aspire-challenge#readme)
 
 ### ✨ [Demo](https://aspire-challenge.vercel.app/)
@@ -51,6 +64,12 @@ npm run dev
 
 ```sh
 npm run test
+```
+
+## Production
+
+```sh
+npm run build
 ```
 
 ## Author
