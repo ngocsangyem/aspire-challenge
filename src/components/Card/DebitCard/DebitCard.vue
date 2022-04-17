@@ -1,5 +1,10 @@
 <template>
-	<div class="debit-card-container">
+	<div
+		class="debit-card-container"
+		:class="{
+			'opacity-5': card.freeze,
+		}"
+	>
 		<div class="debit-card-action flex justify-end md:mb-3">
 			<button
 				class="debit-card-show text-primary-c text-xs font-bold flex items-center md-max:bg-white md-max:py-1 md-max:px-2.5 md-max:rounded-t-md md-max:relative"
@@ -15,7 +20,7 @@
 			</header>
 			<div class="debit-card-body text-white">
 				<div class="debit-card-name mb-6 md:mb-8">
-					<span class="font-bold">Mark Henry</span>
+					<span class="font-bold">{{ card.name }}</span>
 				</div>
 				<div class="debit-card-number">
 					<template v-if="!isShowNumber">
@@ -102,7 +107,7 @@ const props = withDefaults(defineProps<Props>(), {
 const isShowNumber = ref(true);
 const cardNumbers = ref<string[][]>([]);
 const get4Digits = (number: string) => number.slice(0, 4);
-const stringArray = props.card.card_number.split('');
+const stringArray = props.card.card_number.trim().split('');
 
 const showCardNumber = () => {
 	isShowNumber.value = !isShowNumber.value;

@@ -66,7 +66,7 @@
 	</div>
 </template>
 <script setup lang="ts">
-import { TransactionItemType } from '@types/transaction';
+import { TransactionItemType } from '@/@types/transaction';
 import { DownArrowIcon, CardDetailIcon, TransactionIcon } from '@/common/icons';
 import TransactionItem from '@/components/TransactionItem/TransactionItem.vue';
 
