@@ -15,7 +15,7 @@
 		"@vueuse/core": "^8.2.6",
 		"pinia": "^2.0.13",
 		"quasar": "^2.6.6",
-		"sanitize-html": "^2.7.0",
+		"uuid": "^8.3.2",
 		"vue": "^3.2.25",
 		"vue-router": "^4.0.14"
 	},
@@ -23,7 +23,7 @@
 		"@quasar/vite-plugin": "^1.0.9",
 		"@types/jest": "^27.4.1",
 		"@types/node": "^17.0.24",
-		"@types/sanitize-html": "^2.6.2",
+		"@types/uuid": "^8.3.4",
 		"@typescript-eslint/eslint-plugin": "^5.19.0",
 		"@typescript-eslint/parser": "^5.19.0",
 		"@vitejs/plugin-vue": "^2.3.1",
