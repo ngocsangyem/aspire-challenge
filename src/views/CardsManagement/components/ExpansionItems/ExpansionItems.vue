@@ -52,7 +52,7 @@
 			>
 				<transaction-item
 					v-for="transaction in get4Transactions()"
-					:key="transaction.label"
+					:key="transaction.title"
 					:transaction="transaction"
 					class="transaction"
 				></transaction-item>

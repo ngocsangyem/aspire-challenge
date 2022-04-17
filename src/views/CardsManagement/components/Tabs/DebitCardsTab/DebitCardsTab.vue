@@ -16,7 +16,7 @@
 							transition-next="fade"
 							@update:model-value="onUpdateCarousel"
 						>
-							<template #navigation-icon="{ active, _, onClick }">
+							<template #navigation-icon="{ active, btnProps, onClick }">
 								<button
 									type="button"
 									class="dot-control"
