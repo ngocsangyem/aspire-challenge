@@ -37,7 +37,7 @@
 					</div>
 				</template>
 				<template v-else>
-					<p>No card in your account</p>
+					<p class="text-black md-max:text-white md-max:text-center">No card in your account</p>
 				</template>
 				<card-actions class="mt-8 md-max:hidden"></card-actions>
 			</div>
